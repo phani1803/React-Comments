@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Comment.jsx";
 
-export default function Commentform(addNewComment) {
+export default function Commentform({addNewComment}) {
     let [formData, setFormData] = useState({
         username: "",
         remarks: "",
